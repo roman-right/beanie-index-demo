@@ -4,8 +4,13 @@ from fastapi import File, APIRouter
 from pykml import parser
 
 from models.data_models import Place, GeoObject
-from models.interface_models import PlaceWithDistance, StatusResponse, PlacesAroundInput, PlacesByWordInput, \
-    ResponseStatuses
+from models.interface_models import (
+    PlaceWithDistance,
+    StatusResponse,
+    PlacesAroundInput,
+    PlacesByWordInput,
+    ResponseStatuses,
+)
 
 place_router = APIRouter()
 
@@ -21,9 +26,11 @@ async def places_from_file(file: bytes = File(...)):
             except AttributeError:
                 description = ""
             place = Place(
-                name=str(place_mark.search_words).strip(),
+                name=str(place_mark.name).strip(),
                 description=description,
-                geo=GeoObject(coordinates=str(place_mark.Point.coordinates).strip().split(",")[:2])
+                geo=GeoObject(
+                    coordinates=str(place_mark.Point.coordinates).strip().split(",")[:2]
+                ),
             )
             places.append(place)
     await Place.insert_many(places)
@@ -36,7 +43,7 @@ async def places_by_word(input_data: PlacesByWordInput):
         {"$text": {"$search": input_data.search_words}},
         skip=input_data.skip,
         limit=input_data.limit,
-        sort="name"
+        sort="name",
     ).to_list()
 
 
@@ -54,5 +61,5 @@ async def places_by_radius(input_data: PlacesAroundInput):
                 }
             }
         ],
-        item_model=PlaceWithDistance
+        item_model=PlaceWithDistance,
     ).to_list()

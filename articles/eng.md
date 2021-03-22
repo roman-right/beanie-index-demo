@@ -1,17 +1,17 @@
-[Beanie](https://github.com/roman-right/beanie) - Python micro ODM (Object Document Mapper) for MongoDB, based on [Pydantic](https://pydantic-docs.helpmanual.io/) and [Motor](https://motor.readthedocs.io/en/stable/).
+[Beanie](https://github.com/roman-right/beanie) - Python ODM (Object Document Mapper) for MongoDB, based on [Pydantic](https://pydantic-docs.helpmanual.io/) and [Motor](https://motor.readthedocs.io/en/stable/).
 
-A few days ago Beanie **0.3.0** was released. The most important feature of this release is Indexes support. In this article, I would like to show in examples, what indexes are needed for and how to use them with Beanie.
+A few days ago Beanie **0.3.0** was released. The most important feature of this version is Indexes support. In this article, I would like to show in examples, what indexes are needed for and how to use them with Beanie.
 
-As an example, I will create a geo service to search interesting places around. Next functions will be provided:
-- Map files uploading to create the places. Files in `.KML` format.
-- Search places by names and descriptions.
-- Search places around by radius.
+For this demo I will create a geo service to search interesting places around. Next functions will be provided:
+- Upload map files to create the places. Files in `.KML` format.
+- Search for places by names and descriptions.
+- Search for places around based on distance.
 
-I will use FastAPI to handle the requests. It is very popular now and perfectly fits this demonstration.
+I will use FastAPI to handle the requests. It is a very popular API framework now and fits perfectly with this demonstration.
 
 ## Data Structure
 
-To store the places I will use Beanie `Document` class. It is an abstraction over Pydantic `BaseModel` which provides methods to work with MongoDB.
+To store the places I will use Beanie `Document` class. It is an abstraction over Pydantic `BaseModel` that provides methods for working with MongoDB.
 
 ```python
 from enum import Enum
@@ -43,9 +43,9 @@ class Place(Document):
 
 - `name` - the name of the place
 - `description` - a short description of the place
-- `geo` - geo information. As a datatype, I use `GeoObject` here. It follows the data structure `GeoJSON Point` of MongoDB. You can find more information about this [here](https://docs.mongodb.com/manual/reference/geojson/#geojson-point)
+- `geo` - geo information. As a datatype, I use `GeoObject` here. It follows the data structure `GeoJSON Point` of MongoDB. More information about this can be found [here](https://docs.mongodb.com/manual/reference/geojson/#geojson-point)
 
-Also, I use inner class `Collection`. It is optional. It helps to set up MongoDB collection, where documents will be stored. For now, I set up only the name of the collection there.
+I also use the inner class `Collection`. It is optional. It helps to set up the MongoDB collection, where the documents are stored. For now, I'm just setting up the collection name there.
 
 ## Initialisation
 
@@ -63,7 +63,7 @@ async def app_init():
 
 ## Upload the map file
 
-I will create an endpoint to upload `.KML` map files to the service. To parse the file I'll use the `PyKML` library.
+I will create an endpoint for uploading `.KML` map files to the service. To parse the file I will use the `PyKML` library.
 
 ```python
 @place_router.post("/upload/", response_model=StatusResponse)
@@ -78,7 +78,7 @@ async def places_from_file(file: bytes = File(...)):
         description = ""
 
       place = Place(
-        name=str(place_mark.search_words).strip(),
+        name=str(place_mark.name).strip(),
         description=description,
         geo=GeoObject(coordinates=str(place_mark.Point.coordinates).strip().split(",")[:2])  # long-lat
       )
@@ -101,13 +101,13 @@ Output:
 
 {% enddetails %}
 
-The endpoint receives the file in bytes format and provides it to the `PyKML` parser. It is extracting all the data, and I use it to create a list of `Place` objects. Then I insert all the created objects together using batch insert method `await Place.insert_many(places)`. It is a very efficient way to insert data when you have many objects.
+The endpoint receives the file in bytes format and provides it to the `PyKML` parser. It extracts all the data, and I use it to create a list of `Place` objects. Then I insert all the created objects together using the batch insert method `await Place.insert_many(places)`. It is a very efficient way for inserting data when you have many objects.
 
-In this example, I'm using a map, which I found on the Google My Maps service. It is a nice map file with a collection of places in Belin.
+In this example, I'm using a map I found through the Google My Maps service. It is a nice map file with a collection of places in Belin. The file can be found [here](https://github.com/roman-right/beanie-index-demo/blob/main/beanie_index_demo/maps/Berlin%2C%20City%20Spy%20Map.kml), the map itself is [here](https://www.google.com/maps/d/u/0/viewer?ie=UTF8&oe=UTF8&msa=0&mid=1UjbD1lAF_fzITBuXAVQFqkgfeqs&ll=52.508127468651104%2C13.428522499999985&z=13)
 
 ## Text search
 
-The next goal after the map file uploading is to make it able to search places by the names and descriptions. For this I have to upgrade class `Place` a little:
+The next goal after uploading the map file is to make it able to search for places based on their names and descriptions. To do this I need to upgrade class `Place` a little:
 
 ```python
 class Place(Document):
@@ -128,8 +128,9 @@ I added `TEXT` index for the `name` and `description` fields. Now I can use Mong
 await Place.find_many({"$text": {"$search": "coffee"}}).to_list()
 ```
 
-This will return a list of `Place` objects, which have `coffee` string in the name or description field. So handy.
-Now I'll move this to the endpoint and will append sorting and pagination there:
+This returns a list of `Place` objects, that have the string `coffee` in the name or description field. So handy.
+
+Now I'm moving this to the endpoint and will append sorting and pagination there:
 
 ```python
 class PlacesByPhraseInput(BaseModel):
@@ -194,11 +195,11 @@ Output:
 
 {% enddetails %}
 
-The endpoint will return the list by the same search criteria, will sort it by name, and limit by `skip` and `limit` parameters.
+The endpoint returns the list according to the same search criteria, sorts it by name, and limits by `skip` and `limit` parameters.
 
 ## Geo search
 
-And the tastiest thing now - I'll implement a coordinates-based search. I will create an endpoint to lookup places around by the radius. To do this I have to add one of the geo indexes to the `Places`:
+Now for the tastiest part - I'm going to implement a coordinate-based search. I will create an endpoint to lookup places around by the radius. To do this, I need to add one of the geospatial indexes to the `Places`:
 
 ```python
 class Place(Document):
@@ -214,7 +215,7 @@ class Place(Document):
         ]
 ```
 
-I appended the `GEOSPHERE` index to the `geo` field. Now, to find the surrounded places I will use the `aggregate` method. Let's assume I'm staying on the Alexanderplatz with coordinates [13.413305998382263, 52.52203686798391] and I want to find the places in a distance of 1 kilometer:
+I appended the `GEOSPHERE` index to the `geo` field. Now, to find the surrounded places I will use the `aggregate` method. Suppose I am at Alexanderplatz with coordinates [13.413305998382263, 52.52203686798391] and I want to find the places in a distance of 1 kilometer:
 
 ```python
 point = GeoObject(coordinates=[13.413305998382263, 52.52203686798391])
@@ -234,7 +235,7 @@ places = await Place.aggregate(
 ).to_list()
 ```
 
-Done. it will return a list of the `Place` objects within 1 kilometer of me. Also, I used `"distanceField": "distance",` parameter in the query. It means I can receive the distances to each point I found. I'll update the output model a little to reach this:
+Done. it returns a list of the `Place` objects within 1 kilometer of me. Also, I used `"distanceField": "distance",` parameter in the query. This means I can get the distances to each point I found. I'll update the output model a bit to achieve this:
 
 
 ```python
@@ -326,22 +327,19 @@ Output:
 
 {% enddetails %}
 
-Done!
+Done! 
+
+I'm really impressed with the things MongoDB can do with geo indexes.
 
 ## Conclusion
 
-I showed, what a useful and interesting thing indexes are and how comfortable it is to use them with Beanie. For sure there are many other use-cases and many other index types in MongoDB. Beanie supports all of them. I hope, it will help you to build applications, experiments, and proofs of concepts.
+I've demonstrated, what a useful and interesting thing indexes are and how comfortable it is to use them with Beanie. For sure there are many other use-cases and many other index types in MongoDB. And Beanie supports all of them and many other things. All the Beanie methods with examples can be found in the [documentation](https://roman-right.github.io/beanie/).
 
 I've created [Beanie Discord server](https://discord.gg/ZTTnM7rMaz) where you can ask your questions, tell me about bugs, share ideas or just chat. Everyone is welcome there.
 
 ## Resources
 
-- Project from the article - https://github.com/roman-right/beanie
+- Demo - https://github.com/roman-right/beanie-index-demo
 - Beanie project - https://github.com/roman-right/beanie
 - Beanie Documentation - https://roman-right.github.io/beanie/
 - Discord - https://discord.gg/ZTTnM7rMaz
-
-
-
-
-
