@@ -1,0 +1,2609 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Berlin, City Spy Map</name>
+    <description><![CDATA[the most exciting dynamic progressive & at the same time melancholic pensive moody cities of ‘modern' West Europe.. There is simply SO much going on in this town & it is too BIG.. The is no "center" it's a collaboration of 'dörfer'= villages.... City Spy Map will offer you some interesting places & points, an overview of 5 neighborhoods, top 3 were formally East Bloc.. a lot to see & do… Enjoy ! . <br>]]></description>
+    <Style id="icon-101-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/101-pink-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-101-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/101-pink-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-101">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-101-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-101-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-102-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/102-pink.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-102-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/102-pink.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-102">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-102-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-102-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-123-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-123-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/123-red-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-123">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-123-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-123-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-124-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-124-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-124">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-124-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-124-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-139-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/139-swimming.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-139-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/139-swimming.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-139-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-139-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-139-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-16-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/16-POI.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-16-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/16-POI.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-16">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-16-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-16-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-16-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/16-POI.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-16-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/16-POI.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-16-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-16-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-16-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-163-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/163-lightblue.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-163-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/163-lightblue.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-163">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-163-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-163-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-165-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/165-pink-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-165-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/165-pink-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-165">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-165-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-165-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-165-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/165-pink-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-165-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/165-pink-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-165-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-165-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-165-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-168-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/168-ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-168-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/168-ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-168">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-168-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-168-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-168-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/168-ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-168-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/168-ylw-pushpin.png</href>
+        </Icon>
+        <hotSpot x="10" xunits="pixels" y="31" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-168-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-168-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-168-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-177-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/177-camera.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-177-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/177-camera.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-177-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-177-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-177-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-37-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/37-convienancestore.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-37-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/37-convienancestore.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-37-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-37-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-37-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-55-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/55-flag.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-55-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/55-flag.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-55-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-55-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-55-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-61-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-61-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/61-green-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-61">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-61-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-61-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-619-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/619-volcano_small.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-619-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/619-volcano_small.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-619">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-619-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-619-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-619-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/619-volcano_small.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-619-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/619-volcano_small.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-619-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-619-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-619-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-62-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/62-green.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-62-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/62-green.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-62">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-62-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-62-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-85-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/85-mechanic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-85-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/85-mechanic.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-85-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-85-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-85-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-89-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/89-movies.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-89-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/89-movies.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-89">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-89-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-89-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-89-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/89-movies.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-89-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/89-movies.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-89-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-89-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-89-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>Dr Pong</name>
+        <description><![CDATA[A special thing to pong or to ping…. so much more than Low-Level Nightlife…. Let the throng pong !! .. Recreating recreation & Improving hand-eye coordination, one player at a time….. Going nowhere.. fast !… Play your game, party on the Dj.. couch viewing & there are local craft beers from Flessa Bräu, plus natural wine as well! .. stumble across this place & never forget how & where you found It.<br> <br><br> <br>U2 Eberswalderstraße . . . . . Mon-Sat: 20.oo-++, Sundays from 14.oo till late]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            13.410809,52.54105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sunflower Hostel</name>
+        <description><![CDATA[well lived in by now. The happy crew work this place and personalities they are. Bright welcome awaits in the reception foyer fish tank and all. The all you can eat breakfast buffet for those mornings or if you prefer JD and coke at that time of day they are only too keen to oblige. There is a self-service laundry to hang out. TV on, fooßball game and fingerlickin' tracks. Martin aka: Dj Por.NO works most night shifts and is the man to contact if you are obsessed with the likes of Goa trance techno You can read his event home page here, and my colleague Robert who gathers and produces segments of this site, is also to be found at your service here. Many of the rooms have balcony's over looking scenes of industrial Berlin at its best from the steal works, down the rail tracks to the East side gallery and the last standing remains of the Berlin wall. Having painted such a hard picture all is quiet for the hostel by sun down. They cater to 110 people daily, lots of doubles, one en-suite, and then all the configurations of beds up to 8 persons to a dorm room. The building is wheelchair friendly. There is lots of safe free parking available and an outstanding customer service<br>www.sunflower-berlin.de (http://www.sunflower-berlin.de/)]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            13.446273,52.50959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Calypso</name>
+        <description><![CDATA[. Happy shoe haven. . The most unique shoe shops I've ever set foot inside. Ladies & gentlemen... Dizzy high heels, biker boots, sneakers, the latest catwalk & designer styles. Second hand couture classics. No two pairs the same. All those who appreciate the fine art of shoes will find these bazzaar gallery's a real treat. Items of clothing in a similar genre adorn any space left unfilled. So best foot forward with a step in the right direction. Here you may well find your lifelong favorite shoe. Calypso is the happy foot foundation. High Heels Forever! .<br>Open: Mon.-Fri. 12.oo-20.oo<br>Sat. 12.oo-16.oo...............]]></description>
+        <styleUrl>#icon-163</styleUrl>
+        <Point>
+          <coordinates>
+            13.40861,52.539164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lette'm Sleep hostel]]></name>
+        <description><![CDATA[Now this hostel could easily be the party hostel due to its location. You can't walk10 meters without coming to another cool bar or good restaurant. Nice park just opposite where all party sweets can be had. The hostel has a chaotic charm, which the crew here prefer to redefine as 'a relaxed ambience'; there is a nice new self-catering kitchen over looking the street. Free Internet access, free coffee and tea, no bar, TV, common room and a travel library. Fully equipped to cater to disabled and wheel chair bound guests. Pets may also find themselves welcome if they are not likely to eat the cleaning lady. They are accommodating up to 45 guests daily in either double rooms or dorms with 3 to 6 beds available. They also allow guests to use their own bedding which is not too common in this city, so if you are travelling that way there is one saving you can make, then straight to the Dunker club to blow it all. This hostel also operates a hostel in Nuremberg a must stop if you're heading into Bavaria and to Munich]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            13.418856,52.543555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Heart of Gold Hostel</name>
+        <description><![CDATA[All mod cons slick cyber block ... uber hip & sincerely happening ..  ensuite dorms & private cabins with shower, huge bridge area on lower deck to hang out 24 \ 7 bar, pool, lights -movies action! relax-area 42, aspirin, sunglasses rent, fun & surprisingly affordable . . by the hitchhikers guide & Another fine Enterprise!...]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            13.390853,52.524446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ankerklause bar cafe</name>
+        <description><![CDATA[The old harbor master's cottage nestled in the heart of "little Turkey", a corner with the whole of K'berg thriving by, especially on open market days Tue. & Fri. Boat trips up the Spree from the Landwehr canal (upon which u may also skate on a cold day), depart from here daily at 11.oo. Serving hearty 'youth' breakfasts, salsa lunches & filling feeds. Seating in the street, in the bar/lounge & overlooking the water. Homely atmosphere usually with the people's choice 100 CD juke box. You name it! Thursday is disco night at the Anchor &, believe me, try as you may, you won't find room to dance & you certainly won't be able to fall over. Just ask the locals.<br> <br>Kottbusser Brücke (on the bridge)<br>Open: Mon. 16oo-, Tue.-Sun. 10oo-?]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            13.420607,52.495758,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bar 23 techno lounge</name>
+        <description><![CDATA[Small familiar scene bar with funky light installation's in the hearts of Prenzlauer Berg. No cover charge. The landlords are better known for their activities in the Pyonen big Techno party group under grounding it around the city. So the elektro Dj program every friday & saturday may reflect & review such events on a more intimate level. Something else which may be of interest to you is the house special or ''spacedrinks''……Entheobotanic herbal bitters pure plant extracts, in which the art of alchemical plant interpretation is realized. Their spirit is easily captured in a long drink, just by adding 2 cl of the extract. bring your head into the '23'  www.elixier.de (http://www.elixier.de) …<br>Cool bar, good food, ever chainging buskers and live tunes from around the globe. Pool table and a very green atmosphere around 20oo daily.<br><br>www.bar23.de (http://www.bar23.de)<br>Daily from 19.oo - open end.. dj´s almost every day!!!]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            13.415964,52.542503,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>City Stay hostel</name>
+        <description><![CDATA[Most central point & down a quiet <br>pedestrianized back way… what more you want….? cheap  at the price. New house, new rooms, new facilities… & a 24h hour bar just far enough from the rooms to culminate this to be an <br>excellent find day or night on any l<br>oft-style budget & \ or on any mission!!]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            13.405525,52.521284,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tanzwirtschaft Kaffee Burger</name>
+        <description><![CDATA[A relic from the good old days when simple folk would go to dance their arses off everynight every week etc…. Small so go early! Saturday hosts off the wall intellectual acts till around 23.oo. Live gigs early in the week to fit in a broad program of abstract nightly entertainments. Sunday is a BLAST in the Russian Disko, I couldn't get off the dance floor! Otherwise this is a drinking den for local & foreign shady characters late into the nights.<br><br>www.kaffeeburger.de (http://www.kaffeeburger.de)<br>Open: 20.oo - very late or early. From 7 on Sundays.<br>U-2"Rosa-Luxemburg-Platz"]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            13.408765,52.528699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eastern Comfort Hostel Boat</name>
+        <description><![CDATA[1st class & 2nd …Through the portholes of the bedcabins, you can see and hear the rippling of the river. Nearly all have WC/shower. …. Bar on the top sundeck, nice views, nice location, nice boat. non swimmers not allowed on board. <br>Mühlenstraße 73<br> +49 (0) 30-66763806<br>Fax: 66763805 <br>www.eastern-comfort.com (http://www.eastern-comfort.com/)]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            13.444422,52.502952,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Alcatraz Backpacker Hostel</name>
+        <description><![CDATA[Snazzy urban domicile .. to rent.. cool & very colourful, decorated by local graffiti artists.. dormitory's! privates! apartments! lots of choice & it's all nice & fresh... <br>stretch out- chill out-free your mind.. A good opportunity to spend a few nice days on a low-budget !]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            13.412228,52.544536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ESCHSCHLORAQUE</name>
+        <description><![CDATA[Neurotitan Shop & Gallery]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            13.401904,52.524383,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EastSeven Berlin Hostel</name>
+        <description><![CDATA[.NOT a large chain hostel, the EastSeven Berlin Hostel is relaxed, it's easy to chat to the staff, make friends in the lounge, kitchen or in the cosy garden…... Easygoing people of any age are comfortable in this Hostel. ..............<br>.........Warm nice place,.. Small very friendly, kitchen, lovely garden.... good for the single traveler or girls... Quiet!......<br>Schwedterstraße 7<br>+49(0)30-936 222 40<br>www.eastseven.de (http://www.eastseven.de/)<br>info@eastseven.de]]></description>
+        <styleUrl>#icon-61</styleUrl>
+        <Point>
+          <coordinates>
+            13.410653,52.533442,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Badehaus Szimpla Musiksalon | Berlin</name>
+        <description><![CDATA[.. watch out!! Hungarian gypsy jazz swing ethno Balkan.. Sundayz Jazzz Jam, Thursday night KILLERrockabilly-boogie-woogie session . the parket does be hoppin' & cracking under the step & the beat- schmooz salon bar .. stylised ..this is a new exciting place for Eastern European live music & culture on the rise. Sat's at 11.oo -, breakfast, coffee & on a nice day find the terrace action from 17... : ʺlive misic venue - concerts and sessions 7 days a weekʺ - not just weekends. ʺprogramm is focusing on eastern-european, balkan musik, swing, jazz, but there is e.g the live Hip-Hop session Thusdays, live electro, indie pop, reggae gigs are also possible - one thing is common: the high quality of the musicʺ]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            13.455141,52.507589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Franken-Bar</name>
+        <description><![CDATA[This pub is as close as I have found to the K'berg ultimate. Rough and ready, calm and cool. Oozing with atmosphere. Attracting all the local heads, be they drag queens, yuppies, punks or the leather clad. Use Franken as a launch pad into the surrounding clubs and you'll start to recognise the faces around you. Its charm is in the German rustic ideal of 'gemuetlichkeit' and volks bravado to the unkempt K'berg attitude.The music is well 'ard, last Friday of the month rock'n'roll parties. Daily decent and reasonably priced food and cocktail specials.<br><br> <br>U1 / U15 Göerlitzer Bahn.<br>U8 Kottbusser tor]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            13.422023,52.500611,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Wild at Heart. Club-Bars-Shops-Tattoo-&.]]></name>
+        <description><![CDATA[Mingle between the Elvis portrait, the Jesus doggies, plastic gizmos, rockers, rollers, punks, rude boys, the tattooed masses & the sexiest bar staff in town. The club is a bazaar of trinkets & entertainment treats. Every night loud music - live acts from all over, guitar - rock the wild house. <br>Club\bar open daily 20.oo till the end<br>Tiki Heart Cafe & Shop Cafe from 10.oo till ??.?? Shop 11.oo-20.oo www.tikiheart.de (http://www.tikiheart.de)<br>Come all colorful friends of spiky love & R'n'R together over a coffee & fusion fast food… PunkRockSchnickSchnack.. local band merchandise & Crazy items on sale today.. , a nice hard core Hawaiian atmosphere. …. for breakfast & lunch, & nice Cocktails ...."Aloha & Rock'n'Roll!" a lively, loose, lovable den of iniquity..<br>!]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            13.430971,52.497548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Konrad-Tönz-Bar Bar</name>
+        <description><![CDATA[A jewel amongst Berlin's various bar scenery - a new definition of cosiness in a category of its own! - packed with <br>retro-images, furniture & wallpaper of the 60's & 70's. A humorous, but very passionate love declaration to kitsch & trash. From Thur till Sun a unique selection of Dj's hosts on portable <br>mono-players ever thing from Soul, Beat, Jazz, Easy Listening, Garage, Twist & Crime Soundtracks of its <br>Open: Tue-Sun from 20:15 - open end]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            13.44159,52.497525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zur fetten Ecke</name>
+        <description><![CDATA[Since 1917…. Now revamped & as revived as you will be. The actual alter bar has remained while all else has been altered… Loud core sounds through an open-plan room strewn with installations & inebriated clubbers either on the way out or already way out… But hey!!.. Club'esque lightings & atmosphere would encourage one to dance if one were not already!! Dj's weekends & more daily. Big screen footballs ..<br>http://www.zurfettenecke.de<br><br>Schlesische strasse 16 ?/ ?corner cuvry strasse<br>open Evening till Morn.<br>u-bahn: line 1 schlesisches tor]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            13.445656,52.49904,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zyankali Bar, Institut für Unterhaltungschemie .</name>
+        <description><![CDATA[I have to tell you this place is worth the trip… & what a trip..  laboratory Frontend-Cocktail Cuisine-Style (fresh Herbs & Spices) & Molecular Mixology (Drink Jellydrops or foams, dry-ice…) Almost all served in test-beakers. they own Absinth, feature Homemade Liqours & Flavourings, Premium-Range Spirits ...  It is a smokeless Bar with smokers toilets, the only Bar in Germany where you might inhale pure Oxygen or have a spinal Shiastu-Massage. , & watch movies ..genres which are not (more) the norm' cinemas.. weekends reservation recommended.<br>http://  (http://%20www.zyankali.de)www.zyankali.de (http://www.zyankali.de) <br><br>Daily from 19:oo -till+++?]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            13.383982,52.49444,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yellow Sunshine-Organic Fast Food - 100% Veggie</name>
+        <description><![CDATA[Healthy for the body, good for the mind & nice to the wallet. Deli of absolutely 100% vege. Open kitchen. Special shakes & cakes. Seitan meat & all organic feeds. Nice bread, drinks for everyone. Awarded as "Germany's 1. Organic-feel good fast food-Restaurant.                                                      Daily: 12.oo- 23.oo]]></description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            13.430783,52.497641,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kuchen-Kaiser Cafe - Diner - Bar</name>
+        <description><![CDATA[Est' in 1866, a world famous confectionery bakery... All sorts 'n types of people may be found here enjoying breakfasts from 09.oo-15.oo. Lunch buffets 12.oo-15.oo ( a 2 course menu for less than 7€). On Sundays from 10.oo-15.oo huge brunch feast for 9€ or so. ..German-international <br>specialties. Full bar.. kick back & blow the froth off a few.., fresh-juice, hot coffees, attentive service, comfortable surround, beer garden /street cafe, <br>8 ball & Snooker, play area for the little children old & young..]]></description>
+        <styleUrl>#icon-101</styleUrl>
+        <Point>
+          <coordinates>
+            13.41686,52.502704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Maria- Mexikanisches Restaurant Santa Maria</name>
+        <description><![CDATA[.. one of the 'most wanted' diners in the whole city. The reason is the awesome vibe & even better food!! Mexican classic meals, a plethora of quesadillas, burritos & tacos. Some own original drinks & even more dishes. This place fills up very quickly & people stay to drink after... Taco Tuesdays w/ 1.50€ tacos & or tequilas.. & daily margarita happy hours from 7 till 9pm ))]]></description>
+        <styleUrl>#icon-101</styleUrl>
+        <Point>
+          <coordinates>
+            13.417742,52.501622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Shakespeare & Sons- book store]]></name>
+        <description><![CDATA[Perhaps you know them from Prague. nice bright & easy going.. Just drop in browse around, lots of choice -many genres .. long or light reading .. turn a page today..<br>Raumer Str. 36 P'berg www.shakesbooks.de (http://www.shakesbooks.de)<br>Mon-Sat: 10.oo-19.oo]]></description>
+        <styleUrl>#icon-163</styleUrl>
+        <Point>
+          <coordinates>
+            13.418915,52.542479,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tiki Heart Cafe</name>
+        <description><![CDATA[Come all colorful friends of spiky love & R'n'R together over a coffee & fusion fast food… PunkRockSchnickSchnack.. local band merchandise & Crazy items on sale today.. , a nice hard core Hawaiian atmosphere. …. for breakfast & lunch, & nice Cocktails ...."Aloha & Rock'n'Roll!" a lively, loose, lovable den of iniquity..<br>Wienerstraße 20<br>Tiki Heart Cafe & Shop Cafe from 10.oo till ??.?? Shop 11.oo-20.oo <br>www.tikiheart.de (http://www.tikiheart.de/)]]></description>
+        <styleUrl>#icon-101</styleUrl>
+        <Point>
+          <coordinates>
+            13.431076,52.497525,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tante Lisbeth</name>
+        <description><![CDATA[U would never think it now'a days but Squats & crazy riots back in the 80's 90's in the Lausitzer platz next to this bar . . old comfortable lounge room sofa landscape light warm flea market ambience fresh cake & coffee & later of course Dj's & big balls in the basement.. let's go bowling (on a classic old wooden lanes, there's only 2 so reserve!?)) they love it!! & drinking.. they love that too (1 arm exercise)...]]></description>
+        <styleUrl>#icon-101</styleUrl>
+        <Point>
+          <coordinates>
+            13.431607,52.501254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Raumfahrer Bar</name>
+        <description><![CDATA[the ‘star’ bar......”... everyone from everywhere is here, just flew in.. & it’s ‘on’.. U will meet also much music, events, happenings.... the red room is alive!!! Sometimes feels as if it is bursting the foundations.. 10-9-8-7-.... One of the pioneers of the recent nightlife movement in this area.. that’s a perfect example of the ‘Berlin chic’, rising from the rubble.. little broken, unfinished.. in motion.. the imperfection makes it perfect.. lift off !!]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            13.425738,52.491969,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Major. french cafe, resto , bar</name>
+        <description><![CDATA[One nice thing is that, after you finished dinner you don't need to ask yourself “where to go now?”.. just hang’ here.;-).. the buzz picks up as the day roll’s on.. sweet lounging.. some come to eat & or to drink n’ talk, others mingle n’ meet.. U can combine... The basis menu is French, galettes, crêpes, croque madam, quiches... Le’ daily special & offers both a vege or meat dish. On w/end, slow breakfasts.. scrambled eggs (only organic)).. like I say !!<br>Hobrechtstr 57 Mon-Friday from  16.oo.... ++ <br>Sat & sunday & holidays from 10.oo. Open everyday.]]></description>
+        <styleUrl>#icon-101</styleUrl>
+        <Point>
+          <coordinates>
+            13.425905,52.491257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Suicide Circus Dance club</name>
+        <description><![CDATA[Right at the forefront of the underground.. They hold serious Techno & dance events ..  Over two floors (indoor & out) you can party with internationally acclaimed artists, who do show up regularly as well as local heroes. & remember u cant call yourself a circus unless u have a lot of variety.... Join in the show!<br>Just @ the end of Warschauer bridge (F'shain side) the metal frame steps open weekends from late til late <br>www.suicide-berlin.com]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            13.450956,52.507253,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Beakers - bar, stage & breakfast]]></name>
+        <description><![CDATA[Familial flair, creative cuisine magic & grungy sound, they got it going on!!! A map from which you can freely select whatever you want to see on your plate, Monday to Sunday, incl. organic eggs & pancakes in all variations.. 100% homemade-everything. & it goes way into the night, +20 types of beer & delicious local B-side rarities, DJ performances, readings, exhibitions, concerts, in a cuddly lounge atmos' & local spirit]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            13.4229384,52.5451882,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cupcake</name>
+        <description><![CDATA[Unglaublich!! You may have tasted a cupcake.. maybe u even have a fetish.. but believe you me these are extra super sex'pecially YUUMM'licious... & the presentation will flip your switch..  freshly baked ..., & vegan apple pie, NY cheesecake, key lime pie, vegan banana bread & brownies... bagel sandwiches, coffees, teas, chais, homemade lemonade, USA style soft drinks.  Come satisfy...]]></description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            13.457732,52.510746,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Shakespeare & Sons]]></name>
+        <description><![CDATA[. nice bright & easy going.. Just drop in browse around, lots of choice -many genres .. long or light reading .. turn a page today. Perhaps you know their store in Prague.]]></description>
+        <styleUrl>#icon-101</styleUrl>
+        <Point>
+          <coordinates>
+            13.420827,52.542046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GRETCHEN Club</name>
+        <description><![CDATA[A former stables from 1854. The beautiful vaulted ceiling, delicate columns.. now combined with cool design, swirled with light, sounded with beats & bass .. released to a musically interested audience.! The program reflects the complexity of current musical trends. From electro, house, dubstep, over IDM, glitch, experimental, avantgarde to bass, independent, folk 'n jazz.. electronically to unplugged, DJ sets & live gigs]]></description>
+        <styleUrl>#icon-123</styleUrl>
+        <Point>
+          <coordinates>
+            13.387782,52.496065,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Other Nature- alternativer Sexladen</name>
+        <description><![CDATA[.. cute yet.. edgy, a sexier kind of shop, everything from dildos n' organic lube to tea n' cupcakes. plus art gallery, vegan condoms, awesome books, tattoos! souvenirs here too: whips, cuffs, strap-ons, & vibrators all made in Berlin. of course, standard & quality are way over the norm. pleasure is priority.. without breaking the bank!'<br>Mehringdamm 79 <br>Mon-Tues: 12.oo-18.oo<br>Wed thru Sat: till 20.oo<br>www.other-nature.de (http://www.other-nature.de)]]></description>
+        <styleUrl>#icon-163</styleUrl>
+        <Point>
+          <coordinates>
+            13.386664,52.489109,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The City of Berlin..</name>
+        <description>Had enough.. or U want some more?http://www.cityspy.info/welcome/bn_welcomepage.htm</description>
+        <styleUrl>#icon-619</styleUrl>
+        <Point>
+          <coordinates>
+            13.365555,52.514132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>fsk Kino</name>
+        <description><![CDATA[on 2 screens . . . . 6 daily screenings . . . . . 18.oo to 23.oo . . . Shows independent Pure Arthouse-films almost every in original format with (DE) subtitles as well as english language films of course......something different for K'berg .. all the best independent stuff.... an astonishing fountain.....& an option to keep it real & save people from going all the way to Potsdamer platz..... 7 days a week, proper cinema....Mon & Tues only 5 euro, rest of the week is 6.50 euro. . . . After the show is about the right time to be hitting the K’berg bars... . . . . . Sifi time. . . . <br>http:// www.fsk-kino.de (http://%20www.fsk-kino.de/). .<br>Segitzdamm 2]]></description>
+        <styleUrl>#icon-89</styleUrl>
+        <Point>
+          <coordinates>
+            13.414639,52.501496,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lichtblick Kino</name>
+        <styleUrl>#icon-89-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.408111,52.536381,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kino Intimes</name>
+        <styleUrl>#icon-89-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.458279,52.512878,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Syndikat</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.423834,52.47818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sameheads</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.439326,52.477919,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tommy Haus</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.38881,52.50147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Clash</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.388633,52.492051,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>agora</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.430309,52.47557,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Red Stuff</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.428768,52.500901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tempest library</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.430855,52.49518,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Biaz</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.407453,52.529349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Filmrisz</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.455312,52.518349,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>pankeculture.com</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.372764,52.544185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>M99</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.427985,52.500898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KØPI</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.426117,52.50768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Supamolly</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.471481,52.510697,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Z-Bar</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.395638,52.529378,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rauch Haus</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ALX7VA3ABv6R9tMd-lYCqM_Ln-xCrB-9_7npPYRGY03fkd56U95mRhSx5HwcLMlkgIDhBHHSdLs61wE2TjW22GDWTOErqJHBwo2Tg1tpWhNyWKwB-Qp3YpOiUk0upHEBCP7PHrA5jVfHrxMPOQhfe9f1VnnFRe3_sBmA2-o" height="200" width="auto" /><br><br>Mariannenplatz 1A<br>10997 Berlin, Germany]]></description>
+        <styleUrl>#icon-165</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ALX7VA3ABv6R9tMd-lYCqM_Ln-xCrB-9_7npPYRGY03fkd56U95mRhSx5HwcLMlkgIDhBHHSdLs61wE2TjW22GDWTOErqJHBwo2Tg1tpWhNyWKwB-Qp3YpOiUk0upHEBCP7PHrA5jVfHrxMPOQhfe9f1VnnFRe3_sBmA2-o</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.4243,52.50469,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Church Gallery</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.455805,52.517938,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Schokoladen</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.397194,52.529812,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Café Morgenrot</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.408835,52.537552,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sama Cafe</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ALX7VA25dLlqFCGmMiJAW2OgM8T75M0DR-iO3vwuzHVFMtwYtJ155-AtI5dfWEX6VakKLE7XsgLzttAFQIlaL--UhQbKS7EDgzZi50GXslobqu_PtvrIYDtHwDtDTuavXBjMq3wBznRDEpIMIRHdx3ZAhRAARIXoJZ3n57Q" height="200" width="auto" /><br><br>- Samariterstraße 32. 10247 Berlin]]></description>
+        <styleUrl>#icon-165</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ALX7VA25dLlqFCGmMiJAW2OgM8T75M0DR-iO3vwuzHVFMtwYtJ155-AtI5dfWEX6VakKLE7XsgLzttAFQIlaL--UhQbKS7EDgzZi50GXslobqu_PtvrIYDtHwDtDTuavXBjMq3wBznRDEpIMIRHdx3ZAhRAARIXoJZ3n57Q</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.465105,52.516735,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lagari bar</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.431569,52.490607,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prince Charles</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.409586,52.502691,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yesterdays bar</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ALX7VA3wJ6-11nDKjUYgz97nc-yc3_FFdnotqjC-IMFXuNQ0dmU-cW-MdtrFGmoFUNsTqkxRFBaO95ETbgX78kKY0Im7PI4pTJcIkBUc5qwEprRSATDZeYWuRYYic1fKFqy5JTjypGvU6b7SAzQn9JWHS9PZqb3c3Bg2" height="200" width="auto" /><br><br>very reasonable priced Beer, Cocktails  & Long drinks..- Music 60´s , 70´s , 80´s classics & rarities. Amazing retro kitsch, lava lamps, killer B's , . makes one feel like Alice in wonderland. (especially after a few pints of cocktails) mixed up Students, Young hipsters, Local barfly´s & the Ageing hippies (homus groovius).. (*meeting point Alternative Berlin´s Anti pubcrawl)<br>10405 Berlin, Německo]]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ALX7VA3wJ6-11nDKjUYgz97nc-yc3_FFdnotqjC-IMFXuNQ0dmU-cW-MdtrFGmoFUNsTqkxRFBaO95ETbgX78kKY0Im7PI4pTJcIkBUc5qwEprRSATDZeYWuRYYic1fKFqy5JTjypGvU6b7SAzQn9JWHS9PZqb3c3Bg2</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.414199,52.532008,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cassiopeia</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.454701,52.507158,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RAW</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.456782,52.507106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Astra</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.451804,52.507243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lovelite</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.461792,52.506714,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Rosi's]]></name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.462404,52.505199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>M.I.K.S</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.458123,52.506087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Salon - Zur Wilden Renate</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.465397,52.497316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Badeschiff</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.453585,52.49759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arena</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.453971,52.497446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hangar</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.467177,52.50049,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>:about blank</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.466094,52.502106,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Prater</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.410573,52.539771,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kulturbrauerei</name>
+        <description>we have already but wrong location- one block away... or maybe is right, move it to the middle or something.</description>
+        <styleUrl>#icon-168</styleUrl>
+        <Point>
+          <coordinates>
+            13.41421,52.540371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dunckerclub</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.423866,52.546159,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ausland</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.419408,52.544929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Velodrom</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.450184,52.530817,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yaam</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.433822,52.508007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Maria</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.430509,52.509223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WaterGate</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.445013,52.50096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chalet</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.449609,52.497079,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>B-Lage</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.451107,52.473723,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>club Golden Gate</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ALX7VA29lLrr0qB7glGRzIry4RnwSyOHl25a1vX6EdUvYy3w3EmVhZ6fX7Z8MRIKB8q71dt3NWmzIaorppA2WXaA1cEucKam2wgs2aUJKo6zFiUBZ_C2E1T-lZbjiI1qiniNK1Zz56DsmZ53oV-Kc38iyQFHWbWL3gcRZDk" height="200" width="auto" /><br><br>Dircksenstraße 77<br>10178 Berlin, Germany]]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ALX7VA29lLrr0qB7glGRzIry4RnwSyOHl25a1vX6EdUvYy3w3EmVhZ6fX7Z8MRIKB8q71dt3NWmzIaorppA2WXaA1cEucKam2wgs2aUJKo6zFiUBZ_C2E1T-lZbjiI1qiniNK1Zz56DsmZ53oV-Kc38iyQFHWbWL3gcRZDk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.416967,52.516012,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>mama bar</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.426108,52.490565,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Magnet</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.444648,52.500653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kater Holzig</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.423887,52.510913,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Das Edelweiss</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.43408,52.498354,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bi Nuu</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.441483,52.500735,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rudimarie</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.43909,52.489052,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Junction Bar</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.393139,52.491561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>peppi guggenheim</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.433143,52.484221,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Weltrestaurant Markthalle</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.430936,52.502351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Südblock</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.416946,52.498498,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>La Focacceria</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.403771,52.533454,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>K17</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.47175,52.51797,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tadschikische Tee</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.395188,52.525093,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>White Trash Fast Food</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.410337,52.529668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Raumvorteil Proberäume</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.459357,52.477416,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ZMF</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.400289,52.531174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>English Theatre Berlin</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.388504,52.487295,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Monster Ronson Karaoke</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.448446,52.505199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zosch</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.393605,52.526085,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>B-Flat</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.402934,52.527423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Strandbar Mitte</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.394533,52.522912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Berghain</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.443022,52.511118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yuma Bar</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.428748,52.487314,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Möbel Olfe</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.417407,52.499941,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SO36</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.42216,52.500405,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Trinkteufel</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.420116,52.502139,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Roses</name>
+        <styleUrl>#icon-168-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.421661,52.500549,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Placemark 129</name>
+        <styleUrl>#icon-177-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.445592,52.501764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Placemark 128</name>
+        <styleUrl>#icon-177-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.409713,52.514105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Placemark 131</name>
+        <styleUrl>#icon-177-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.385679,52.507615,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Placemark 130</name>
+        <styleUrl>#icon-177-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.462862,52.495846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tempelhofer Freiheit</name>
+        <description><![CDATA[Kuci please make this place more 'visable']]></description>
+        <styleUrl>#icon-619</styleUrl>
+        <Point>
+          <coordinates>
+            13.418078,52.476569,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Molecule Man Sculpture</name>
+        <styleUrl>#icon-619-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.459035,52.496943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rykestr Synagogue</name>
+        <styleUrl>#icon-619-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.419132,52.53503,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DDR Museum</name>
+        <styleUrl>#icon-619-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.402569,52.519426,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Soviet War Memorial</name>
+        <styleUrl>#icon-619-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.471878,52.486191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RAW-Tempel complex</name>
+        <description><![CDATA[. A complex... . . . . . . .. . . . 11 years the RAW.tempel is one of THE alternative hotspots. This vast area (a former railway works) is home to ca. 60 different projects of music - arts, social & political activities. Explore <br>studios & work spaces or the bars… enjoy the cultural activities: concerts, <br>off-theatre, underground clubbing…. a little aside the usual mainstream. Reasonable prices attract the local scenes as well as a multiculti’ crowd from every corner of the world. All looking for that little something ‘extra’. . . . . . . . bit more !!. . .<br><br> <br>The tent & a big beer house hall where occasionally the multi-functional parties peak...... Is open daily to drop over, have a drink, eat & have a look around… A former railway construction industrial complex now, work spaces to develop cultural, social & business-related projects. Focus is the creation of new ideas & forms of cultural expression & individual aspects of the quality of existence. Helping improve the living spirit of modern society. Musicians, painters, sculptors & writers more than welcome. Sculpting courses offered in a range of artwork disciplines, As with everything these are open for student application from all over the world. Workplaces for experimental pottery; music & film studios; as well, a sound laboratory; an art gallery; a drum factory & really much more….. The RAW-tempel is situated to build bridges, cross borders, deconstruct separation & unite different backgrounds.]]></description>
+        <styleUrl>#icon-619</styleUrl>
+        <Point>
+          <coordinates>
+            13.453317,52.507301,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Serious Communist buildings</name>
+        <styleUrl>#icon-619-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.418898,52.52335,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jewish Museum</name>
+        <description>Can we draw the building please</description>
+        <styleUrl>#icon-619</styleUrl>
+        <Point>
+          <coordinates>
+            13.395027,52.501692,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Berlin Potsdamer Bahnhof</name>
+        <styleUrl>#icon-619-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.376316,52.509737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Computerspiele museum</name>
+        <styleUrl>#icon-619-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.441901,52.51754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ramones Museum</name>
+        <styleUrl>#icon-619-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.395864,52.524897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Humboldt-Box</name>
+        <styleUrl>#icon-619-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.400198,52.51784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>East Side Gallery</name>
+        <styleUrl>#icon-619-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.439659,52.504996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1.Berliner DDR Motorrad Museum</name>
+        <styleUrl>#icon-619-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.4080193,52.5238593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pergamon Museum</name>
+        <styleUrl>#icon-619-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.395896,52.521626,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hard Wax</name>
+        <styleUrl>#icon-16-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.420417,52.49644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wowsville</name>
+        <styleUrl>#icon-16-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.42996,52.495003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Static shock</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ALX7VA1VQ4aMx9mV05Px-Hos2DbE6aO7NlE5wOvsqPVeULDHAfVH76bUYTELmhyOqNIvv8ETQsSE6zMPOqbSEoLD-DMakSS0Kr8r7Spwj30o15yQ2uP-dStKmKn-dceT7UeLT8gcFGE4vsjds5Z2-JcMnbhfV0lWUsk_hqs" height="200" width="auto" /><br><br>Bürknerstraße 6, 12047 Berlin, Germany]]></description>
+        <styleUrl>#icon-16</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ALX7VA1VQ4aMx9mV05Px-Hos2DbE6aO7NlE5wOvsqPVeULDHAfVH76bUYTELmhyOqNIvv8ETQsSE6zMPOqbSEoLD-DMakSS0Kr8r7Spwj30o15yQ2uP-dStKmKn-dceT7UeLT8gcFGE4vsjds5Z2-JcMnbhfV0lWUsk_hqs</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.425027,52.49332,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Core Tex</name>
+        <styleUrl>#icon-16-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.425577,52.499651,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>music</name>
+        <styleUrl>#icon-16-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.387103,52.525329,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OYE</name>
+        <styleUrl>#icon-16-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.410873,52.538316,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Melting point</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/umsh/ALX7VA1mXs6kszMYGmlqE47cOxv6AdFbN5g6ctqd01ivH8xN_W6KaotQ2ze7vnh3pbzZIkMVWXd2a3F1x9LXrerW_HcSzTHZ57nICmCUrN2aFxCZNbnOmaXv3Yumq2RkW3UOqXuxnMrWUVfxPFkUfle2SRf1K549wBQBQbE" height="200" width="auto" /><br><br>10119 Berlin, Germany]]></description>
+        <styleUrl>#icon-16</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/umsh/ALX7VA1mXs6kszMYGmlqE47cOxv6AdFbN5g6ctqd01ivH8xN_W6KaotQ2ze7vnh3pbzZIkMVWXd2a3F1x9LXrerW_HcSzTHZ57nICmCUrN2aFxCZNbnOmaXv3Yumq2RkW3UOqXuxnMrWUVfxPFkUfle2SRf1K549wBQBQbE</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            13.404626,52.533216,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Record Store</name>
+        <styleUrl>#icon-16-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.39986,52.531183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rotation</name>
+        <styleUrl>#icon-16-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.402188,52.530585,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Soultrade</name>
+        <styleUrl>#icon-16-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.424051,52.492461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Space Hall</name>
+        <styleUrl>#icon-16-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.394271,52.490463,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Funkyquariat</name>
+        <styleUrl>#icon-16-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.410927,52.513139,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dense</name>
+        <styleUrl>#icon-16-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.453662,52.518162,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pukemusic</name>
+        <styleUrl>#icon-16-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.464842,52.516307,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Drehmoment</name>
+        <styleUrl>#icon-16-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.415824,52.542418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Freiluftkino Kreuzberg</name>
+        <styleUrl>#icon-89-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.423598,52.504304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Art Claims Impulse</name>
+        <styleUrl>#icon-55-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.436902,52.498615,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CoachingCulture Gallery- in the old brewery</name>
+        <styleUrl>#icon-55-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.429621,52.478275,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Berlinische Galerie</name>
+        <styleUrl>#icon-55-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.398514,52.503716,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Art Projects</name>
+        <styleUrl>#icon-55-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.399972,52.527715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Klemm's]]></name>
+        <styleUrl>#icon-55-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.414075,52.501574,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Projektraum</name>
+        <styleUrl>#icon-55-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.424926,52.503866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>enblanco Projektraum</name>
+        <styleUrl>#icon-55-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.424402,52.496845,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mindpirates</name>
+        <styleUrl>#icon-55-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.427242,52.495621,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laura Mars</name>
+        <styleUrl>#icon-55-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.438779,52.499419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Strychnin</name>
+        <styleUrl>#icon-55-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.460988,52.512111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Artitude</name>
+        <styleUrl>#icon-55-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.445836,52.499954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EXPO</name>
+        <styleUrl>#icon-55-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.440473,52.478602,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Freie Int' Tankstelle]]></name>
+        <styleUrl>#icon-55-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.409715,52.533512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kornerpark</name>
+        <styleUrl>#icon-55-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.436396,52.470063,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grimmuseum</name>
+        <styleUrl>#icon-55-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.412472,52.491398,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kuchling</name>
+        <styleUrl>#icon-55-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.42483,52.541272,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KUCI- remove the weed... complaint from Konrad toenz...</name>
+        <styleUrl>#icon-85-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.437467,52.496578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Another Country books</name>
+        <styleUrl>#icon-37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.393074,52.490365,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Bargain Book Shop</name>
+        <styleUrl>#icon-37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.422297,52.533268,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Street Market Monday & Thursday]]></name>
+        <styleUrl>#icon-37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.391172,52.502195,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HUMANA</name>
+        <styleUrl>#icon-37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.454432,52.516704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Street Markets</name>
+        <styleUrl>#icon-37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.441447,52.498746,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Türk street markets. Tues & Fri & Sat]]></name>
+        <styleUrl>#icon-37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.421102,52.495634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sing Blackbird</name>
+        <styleUrl>#icon-37-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.425947,52.492364,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Olympic Pools</name>
+        <styleUrl>#icon-139-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.448939,52.532631,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sommerbad pools</name>
+        <styleUrl>#icon-139-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.402805,52.497597,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Columbiabad pools</name>
+        <styleUrl>#icon-139-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.416238,52.480193,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stadtbad Mitte</name>
+        <styleUrl>#icon-139-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.392828,52.529433,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sisyphos</name>
+        <description><![CDATA[KUCI at Ost Kreuz put arrow '1,5km Hauptstraße 15']]></description>
+        <styleUrl>#icon-168</styleUrl>
+        <Point>
+          <coordinates>
+            13.49149,52.493285,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tristeza</name>
+        <styleUrl>#icon-165-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            13.431183,52.486432,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[The Castle - café, craft beer bar & garden]]></name>
+        <description><![CDATA[Serious about their drinking kulture, a favorite among locals & expats alike. Rotating select of 20 craft beer taps & 100's of bottles !! a true celebration of craft beers from far & wide.. And maybe after a few of those you'll find the hidden door to the speakeasy bar.. trust & discover! plenty of entertainment to unfold, always good company & a sassy beer garden in the warm times]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            13.3884687,52.5314832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Das Gift - Scottish Pub</name>
+        <description><![CDATA["Malt whiskies, small-batch gins, Scottish ales, local craft beers & signature cocktails. <br>Award winning Haggis & World Famous Mac & Cheese Wednesday thru Saturday 18-22h. All Day Breakfast Sat & Sun 12-18h. <br>Special feature great music jukebox w/ mixes by famous friends inc’ The Cure, Interpol, Irvine Welsh, Optimo & of course Mogwai (bar belongs to Barry Burns)).<br>Events: Das Pub Quiz Monday @ 20.3o, Happy Hours 17-22h Tue-Thur w/ Pitchers of Pimms & Pilsners, w/ends contemporary art exhibition's & DJ’s.<br>"]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            13.4324441,52.484015,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dr. Pogo-Vegan health foods shop</name>
+        <description><![CDATA[Grocery store run by a collective. Political ideas put into praxis; conviction that human & animal liberation must be linked. Based on consensus, cooperation, equality & sustainability. Not for bosses, not for profits. For fairer food in the Kiez (hood) & good working conditions. Plant-based alternatives, organic products, (partially) package-free shopping.]]></description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            13.4433411,52.473983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[ESCHSCHLORAQUE MonsterKabinett -automatically theatre, kinetic art installation & special museum ]]></name>
+        <description><![CDATA[Crazy amazing fantastic world of hard bodied art-freak-show pneumatic machine madness & spectacular... A run-down amusement park comes into life. Outlandish scary mechanical creature show. It's a 20 min' trip... & the Tour cost 8 / 6€]]></description>
+        <styleUrl>#icon-163</styleUrl>
+        <Point>
+          <coordinates>
+            13.4023903,52.5242385,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[ESCHSCHLORAQUE Rümschrümp - extraordinary cocktailbar & coffee place – DJs, concerts, performances]]></name>
+        <description><![CDATA["THE Cocktailbar & Art Club is unique Berlin underground since 1995! A weird & wonderful complex, a true center for the fringe scenes, high quality cocktails, drinks & coffee, performances, liquid lounging... a collective of creative artists & abstract entertainment<br>Entrepeneurs, metall art, energy, vibe... an inner city underground mansion... abandoned & alive with strange iron monsters – the creatures of the Berlin art group Dead Chickens! <br>Daily: 14.oo till late          ]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            13.4024105,52.5242343,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Fahrradstation berlin by bike, rentals & guided city tours]]></name>
+        <description><![CDATA[FIRST CLASS, 2nd hand bicycles Trek, BMC, Diamant, Gazelle - city cruisers, racers, cargobikes, trailers, tandems. Bring this map & rent a bike for just 5 Euro a day!! or join the guided tour daily 14:30 h. Start @Dorotheenstr.]]></description>
+        <styleUrl>#icon-163</styleUrl>
+        <Point>
+          <coordinates>
+            13.3984453,52.5273135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[psy7 -  unique psychedelic & urban fashion]]></name>
+        <description><![CDATA["Experience nature-inspired clothing, carefully selected to reflect & stimulate different aspects of the psyche into beautiful sacred geometrix, cuts & shiny UV active patterns.<br>Visit before festival & be prepared :) it's a full-on trip, holistic fashion that will softly echo as a voice inside your head. Mission: to gather high quality psychedelic inspired fashion, such as Plazmalab, Symbolika, Jungle Gipsy, Slogan Eco Streetwear & a lot more ;)<br>Take a walk on the Psy side.<br>10% discount in store for walk in with this CitySpy<br>"]]></description>
+        <styleUrl>#icon-163</styleUrl>
+        <Point>
+          <coordinates>
+            13.4510933,52.5220996,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Santa Cantina! - Modern Mexican buffet </name>
+        <description><![CDATA[Introducing the latest member of the Santa Maria family – Here the focus is all about proving there's more than just "streetfood" in Mexico, begin your taste expidition rapido!! As well as a huge range of craft beers, wines & premium cocktails.. this must be the place ))                                                                                   Sunday- Thurs: 12.oo- 22.oo Fri & Sat till midnight]]></description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            13.4549072,52.5085291,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Rusty Pigfoot Tattoo - tattoo, piercing & bodmod studio]]></name>
+        <description><![CDATA[... & these guys bring to the table all kinds of classics: body suspension, scarification, bondage & hand poking to name a few!! A tattoo studio w/ living-room type of atmos', regular art exhib's & acts to get you skin deep into the Berlin experience. Custom or walk-in's, big or small. 5* hygiene standards 5* epic multicultural artists with over 18 years experience- speaking Eng, De, Esp & Ital, friendly to all & all creatures welcome :) ]]></description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            13.459068,52.5120308,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Biererei - craft beer bottle shop</name>
+        <description><![CDATA["Impressively stocking over 600 local & international craft beers, passionate owner Cihan has created a specialist hub to help find rare beers plus meet fellow enthusiasts too! With their multi-tap growler filling station, tasting events & enthusiastic helpful staff, every beer fanatic is certain to fall in love with Biererei & leave everytime with superb brews too! New & exciting beers hit the shelves every week!<br>Cheers!<br>Mon- Wed 14.oo- 22.oo<br>Thurs- Sat. 12.oo- 00.oo Closed Sundays ]]></description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            13.4223918,52.5005273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[W - Der Imbiss - vegan & vegetarian world food]]></name>
+        <description><![CDATA[Tried indo-mexi-cal-ital yet? Here to suit so many cravings. Impeccably delicious & unique dishes combining some of the finest features of world cuisine. Only the freshest ingredients will do, all choices are well-balanced, epic vegan, vegetarian & salmon dishes. ++homemade naan bread!! Healthy food, diverse choice, intense flavours, big ol’ plates, all for a very reasonable price                                                                                Sun- Thu 12.oo - 22.oo Fri- Sat 12.oo - 23.oo]]></description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            13.405023,52.534247,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wonderpots Frozen Yogurt - guilt-free goodness</name>
+        <description><![CDATA[Born from love & inspiration, here's a local frozen yogurt & ice cream sensation!! Fresh, healthy & delicious little things in a pot, 100% low-fat bio-certified organic milk & yogurt from a small farm in Brandenburg. Guilt free Yogurt with toppings to match! a ‚breakfast club', fairtrade coffee, fruit/berry pots in a cool urban lounge. One of the first of its kind in Berlin where everything is prepared with love, patience & passion which's why it tastes SO good]]></description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            13.3907349999999,52.520066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Zum Starken August - circus bar, burlesque & wonderland]]></name>
+        <description><![CDATA[Not only provides various liquid delights, but also allows for an escape into a retro circus wonderland! Different varieties of fine craft beers from regional & world microbreweries, regular shows like nowhere. Stage hosting artists of all kinds, burlesque performances, wild bingo nights & interesting happenings always... very special, even for Berlin!                                               Mon- Thu & Sun 17.oo- 02.3o Fri- Sat 17.oo - 05.oo ]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            13.412861,52.5437472,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[TOAST HAWAII - neo playground - Bar & Circus Club]]></name>
+        <description><![CDATA[An exciting place, crazy deco & quality entertainment all week round- Mon' supergame night with table tennis, Tues' free beer punk’n’roll, Thurs' trashy porn nights, Fri' mixed music dj's, porno karaoke every 1st and 3rd saturday - all in this fantastic neo playground!! super friendly peeps with freaky necessities, just like you :)                                                                              Mon- Thu 19:oo- o3:oo Fri 19:00- o5:oo Sat 19:oo- o5:oo Sun 19:oo- o3:oo ]]></description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            13.4127789,52.5411559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[19grams Berlin - speciality coffee & brunch]]></name>
+        <description><![CDATA[Brunch spot, lots of outdoor seating & extended trading hours in the summer for those evening sunset drinks (see FB for more). Friendly atmosphere serving great locally roasted coffee by their partner Tres Cabezas alongside local & seasonal brunch. Drop by for Aussie style breakfast & or coffee with a great service.               Mon- Fri 08.oo- 18.oo- Kitchen 9-15.oo Sat- Sun 09.oo- 18.oo]]></description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            13.3802909,52.5331668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19grams</name>
+        <description><![CDATA[Tiny hole in the wall serving Tres Cabezas locally roasted coffee & homemade cakes. Small space that fills up in winter then opens up onto the street in the summer. Perfect spot for a coffee refresh on the way to visit the Eastside gallery & Oberbaumbrucke.                                                                           Mon- Fri 08.oo- 18.oo Sat- Sun 10.oo- 18.oo]]></description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            13.4447623999999,52.4999605,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19grams</name>
+        <description><![CDATA[After 15 years of serving house roasted coffee paired with exceptional homemade cakes. Loads of seating, in'n'out & a perfect pitstop from the weekend fleamarkets at Boxhagener Platz & RAW.                                                         Mon- 08.oo- 20.oo Sat- Sun 09.oo- 20.oo ]]></description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            13.4687180999999,52.507127,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tres Cabezas - specialty coffee</name>
+        <description><![CDATA[A place for real coffee enthusiasts you can enjoy your coffee & the space in which it is roasted! La Marzocco showroom / training space. Plenty of seating inside or out on the beer garden. Perfect brunch spot to fuel your sightseeing days around Museum Island & the TV Tower.]]></description>
+        <styleUrl>#icon-102</styleUrl>
+        <Point>
+          <coordinates>
+            13.4686747000001,52.5070937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
