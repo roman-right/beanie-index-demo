@@ -1,6 +1,6 @@
 [Beanie](https://github.com/roman-right/beanie) - Python ODM (Object Document Mapper) for MongoDB, based on [Pydantic](https://pydantic-docs.helpmanual.io/) and [Motor](https://motor.readthedocs.io/en/stable/).
 
-A few days ago Beanie **0.3.0** was released. The most important feature of this version is Indexes support. In this article, I would like to show in examples, what indexes are needed for and how to use them with Beanie.
+A few days ago Beanie **0.3.0** was released. The most important feature of this version is Indexes support. In my [previous article](https://dev.to/romanright/announcing-beanie-mongodb-odm-56e) I told about the general use-cases of this library. This time I would like to show in examples, what indexes are needed for and how to use them with Beanie.
 
 For this demo I will create a geo service to search interesting places around. Next functions will be provided:
 - Upload map files to create the places. Files in `.KML` format.
@@ -344,6 +344,7 @@ I've created [Beanie Discord server](https://discord.gg/ZTTnM7rMaz) where you ca
 ## Resources
 
 - Demo - https://github.com/roman-right/beanie-index-demo
+- Announcing article - https://dev.to/romanright/announcing-beanie-mongodb-odm-56e
 - Beanie project - https://github.com/roman-right/beanie
 - Beanie Documentation - https://roman-right.github.io/beanie/
 - Discord - https://discord.gg/ZTTnM7rMaz
