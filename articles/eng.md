@@ -260,6 +260,10 @@ places = await Place.aggregate(
 Now it also provides a distance together with other places information. I will wrap it to the endpoint:
 
 ```python
+class PlacesAroundInput(BaseModel):
+    coordinates: Tuple[float, float]
+    radius: float = 1000
+
 @place_router.post("/around/", response_model=List[PlaceWithDistance])
 async def places_by_radius(input_data: PlacesAroundInput):
     point = GeoObject(coordinates=input_data.coordinates)
