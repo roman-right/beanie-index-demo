@@ -1,4 +1,4 @@
-[Beanie](https://github.com/roman-right/beanie) - Python ODM (Object Document Mapper) for MongoDB, based on [Pydantic](https://pydantic-docs.helpmanual.io/) and [Motor](https://motor.readthedocs.io/en/stable/).
+[Beanie](https://github.com/roman-right/beanie) - Python ODM (Object Document Mapper) for MongoDB.
 
 A few days ago Beanie **0.3.0** was released. The most important feature of this version is Indexes support. In my [previous article](https://dev.to/romanright/announcing-beanie-mongodb-odm-56e) I told about the general use-cases of this library. This time I would like to show in examples, what indexes are needed for and how to use them with Beanie.
 
@@ -103,7 +103,7 @@ Output:
 
 The endpoint receives the file in bytes format and provides it to the `PyKML` parser. It extracts all the data, and I use it to create a list of `Place` objects. Then I insert all the created objects together using the batch insert method `await Place.insert_many(places)`. It is a very efficient way for inserting data when you have many objects.
 
-In this example, I'm using a map I found through the Google My Maps service. It is a nice map file with a collection of places in Belin. The file can be found [here](https://github.com/roman-right/beanie-index-demo/blob/main/beanie_index_demo/maps/Berlin%2C%20City%20Spy%20Map.kml), the map itself is [here](https://www.google.com/maps/d/u/0/viewer?ie=UTF8&oe=UTF8&msa=0&mid=1UjbD1lAF_fzITBuXAVQFqkgfeqs&ll=52.508127468651104%2C13.428522499999985&z=13)
+In this example, I'm using a map I found through the Google My Maps service. It is a nice map file with a collection of places in Belin. The file can be found in the demo project on [github](https://github.com/roman-right/beanie-index-demo/blob/main/beanie_index_demo/maps/Berlin%2C%20City%20Spy%20Map.kml).
 
 ## Text search
 
@@ -344,7 +344,6 @@ I've created [Beanie Discord server](https://discord.gg/ZTTnM7rMaz) where you ca
 ## Resources
 
 - Demo - https://github.com/roman-right/beanie-index-demo
-- Announcing article - https://dev.to/romanright/announcing-beanie-mongodb-odm-56e
 - Beanie project - https://github.com/roman-right/beanie
 - Beanie Documentation - https://roman-right.github.io/beanie/
 - Discord - https://discord.gg/ZTTnM7rMaz
