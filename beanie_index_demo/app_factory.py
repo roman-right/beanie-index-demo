@@ -1,5 +1,5 @@
 import motor
-from beanie.general import init_beanie
+from beanie import init_beanie
 from fastapi import FastAPI
 from pydantic import BaseSettings
 
